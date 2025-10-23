@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@font-face {
+  font-family: "Arial";
+  src: url("../fonts/ofont.ru_Arial.ttf");
+}
+@font-face {
+  font-family: "Sans-Serif";
+  src: url("../fonts/ofont.ru_Microsoft\ Sans\ Serif.ttf");
+}
+
+body {
+  margin: 0; 
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url('../photo/3263324.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 0; 
+  background-attachment: fixed;
+}
+
+header {
+  background-color: black;
+  padding: 1rem 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  transition-duration: .25s;
+}
+header nav a:hover{
+color: #2802ff;
+}
+header nav a:active{
+  color: #A825FF;
+  }
+header .ziera{
+color: white;
+text-decoration: none;
+transition-duration: .25s;
+}
+header .ziera:hover{
+color: #2802ff;
+}
+header .ziera:active{
+  color: #A825FF;
+  }
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;}
+
+  span {
+    display: inline-block;
+    transform: translate(5em, 0em);
+  }
+
+
+
+  span2 {
+    display: inline-block;
+    transform: translate(-5em, 0em);
+  }
+
+  span_Z {
+    display: inline-block;
+    transform: translate(13em, 0em);
+  }
+
+  span_O {
+    display: inline-block;
+    transform: translate(-40em, 0em);
+  }
+ 
+ 
+  footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right {
+  margin-top: 20px; 
+}
+
+
+.reviews-container {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0; 
+}
+
+.review {
+  color: black;
+  padding: 15px;
+  margin-bottom: 10px; 
+  background-color: white; 
+  border-radius: 5px; 
+  overflow: hidden; 
+  word-wrap: break-word; 
+}
+.review-text {
+  color: black; 
+  margin: 0; 
+}
+
+.review-field {
+  display: none;
+}
+
+.S_buttons {
+  background: rgba(255, 255, 255);
+  width: 100%;
+}
+.O_buttons {
+  background: rgba(255, 255, 255);
+  width: 100px;
+  border: none;
+  button:hover {
+    /* Кнопка видоизменяется при наведении курсора */
+    color: rgb(32, 252, 3);
+  }
+ button:active {
+    /* Меняет цвет при нажатии */
+   color: rgb(53, 241, 6);
+  }
+}
+
+.text-left {color: rgb(255, 255, 255);}
+
+
+
+
+
+.emoji-picker {
+  display: none;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: absolute;
+  z-index: 1;
+}
+.emoji-picker button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}

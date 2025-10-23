@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заказ</title>
+  <link rel="stylesheet" href="css/style5.css">
+ 
+</head>
+<body>
+  <header>
+    <a class="ziera" href="Index.html">ZiEra</a>
+    <nav>
+      <a href="about.html">О компании</a>
+      <a href="client.html">Клиенты</a>
+      <a href="review.html">Отзывы</a>
+      <a href="services.html">Услуги</a>
+    </nav>
+  </header>
+<div class="background">
+  <div class="container">
+    <div class="title">Заказ</div>
+    <div class="order-section">
+      <div class="product-block">
+        <p style="text-align: center; font-size: 2rem;">
+          <strong>Сайт-визитка</strong>
+        </p>
+        <p style="text-align: center;">
+          <strong>Небольшой сайт с информацией о компании</strong>
+        </p>
+        <p style="text-align: center; font-size: 2rem;">
+          <strong>40 000 руб</strong>
+        </p>
+      </div>
+      <div class="contact-block">
+        <div>
+          <label for="fio">ФИО</label>
+          <input type="text" id="fio" placeholder="ФИО">
+        </div>
+        <div>
+          <label for="email">Эл.почта</label>
+          <input type="email" id="email" placeholder="Эл.почта">
+        </div>
+        <div>
+          <label for="phone">Телефон</label>
+          <input type="tel" id="phone" placeholder="Телефон">
+        </div>
+      </div>
+    </div>
+    <form>
+      <label for="description">Опишите подробнее проект:</label>
+      <textarea id="description" placeholder="Описание проекта"></textarea>
+      <div class="payment-section">
+        <div>
+          <label for="payment">Способ оплаты</label>
+          <select id="payment">
+            <option>Выбрать...</option>
+            <option>Сбер</option>
+            <option>Альфа банк</option>
+            <option>Альфа банк</option>
+          </select>
+        </div>
+        <div>
+          <label for="card">Номер карты</label>
+          <input type="text" id="card" placeholder="Номер">
+          <label for="name">Имя</label>
+          <input type="text" id="name" placeholder="Имя">
+          <label for="surname">Фамилия</label>
+          <input type="text" id="surname" placeholder="Фамилия">
+        </div>
+        <div>
+          <label>Срок действия</label>
+          <div class="card-expiry">
+            <input type="text" placeholder="Месяц">
+            <input type="text" placeholder="Год">
+          </div>
+          <label for="code">Код</label>
+          <input type="text" id="code" placeholder="Код">
+        </div>
+      </div>
+      <div class="buttons">
+        <button type="button" class="back-button" onclick="location.href='services.html'">Назад</button>
+        <div id="payment-message" class="payment-message hidden">Оплата принята</div>
+        <button type="button" class="pay-button" id="pay-button">Оплатить</button>
+    </div>
+      <script src="js/script2.js"></script>
+    </form>
+  </div>
+</div>
+<footer>
+  <div class="footer-left">
+    <div><p>TEL: 8-800-555-35-35</p></div>
+    <div><p>ZIERA34@mail.ru</p></div>
+  </div>
+  <div><br><br><br><p style="color: gray;">2024 © ZIEra</p></div>
+</footer>
+</body>
+</html>
